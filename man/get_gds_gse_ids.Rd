@@ -2,17 +2,11 @@
 % Please edit documentation in R/geo_functions.R
 \name{get_gds_gse_ids}
 \alias{get_gds_gse_ids}
-\alias{get_gpl_related_gds}
 \title{Get platform GSE ids which have entries in GEO datasets}
 \usage{
 get_gds_gse_ids(gpl_id)
-
-get_gpl_related_gds(gpl_id, min_sample_num = NULL,
-  max_sample_num = NULL)
 }
 \arguments{
-\item{gpl_id}{The ID of the platform of interest}
-
 \item{gpl_id}{The ID of the platform of interest}
 }
 \description{

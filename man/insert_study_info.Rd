@@ -4,21 +4,21 @@
 \alias{insert_study_info}
 \title{Insert study information}
 \usage{
-insert_study_info(study, disease, keywords, platform, organism, user,
-  password, dbname, host = "127.0.0.1")
+insert_study_info(pool, gds_id, disease, platform, organism, summary,
+  title, pubmedid)
 }
 \arguments{
 \item{disease}{Character string describing the disease or condition the 
 study refers to}
-
-\item{keywords}{Character string with keywords describing the study to be added,
-with multiple keywords separated by semicolons}
 
 \item{platform}{Character string specifying the GEO platform used by the study}
 
 \item{organism}{Character string specifying the study organism.}
 
 \item{study_id}{Character string with the GEO accession number to be added}
+
+\item{keywords}{Character string with keywords describing the study to be added,
+with multiple keywords separated by semicolons}
 }
 \description{
 This function takes information about a study and adds it into the 

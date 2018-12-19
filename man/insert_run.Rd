@@ -4,7 +4,7 @@
 \alias{insert_run}
 \title{Insert CEMiTool run information}
 \usage{
-insert_run(study_id, date, results, plots, reports)
+insert_run(pool, study_id, results_dir, run_date)
 }
 \arguments{
 \item{study_id}{Character string with the GEO accession number to be added}
