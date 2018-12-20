@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 *.sw*
+data
+intermediate
+cemitooldb3.Rproj
+
